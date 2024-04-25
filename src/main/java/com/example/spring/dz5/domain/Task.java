@@ -5,6 +5,17 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
+/**
+ * Сущность Задача
+ * @id - id задачи
+ * @description - тело задачи(описание)
+ * @taskStatus - статус выполнения задачи
+ * @creationDate - дата создания задачи
+ *
+ * Первое и последнее поле ставиться автоматически и не изменияется
+ */
+
+
 @Data
 @Entity
 @Table(name = "tasks")
